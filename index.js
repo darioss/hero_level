@@ -1,17 +1,7 @@
+//Define variables
 let heroName;
 let heroLevel;
 let xp;
-
-const level = [
-  "Ferro",
-  "Bronze",
-  "Prata",
-  "Ouro",
-  "Platina",
-  "Ascendente",
-  "Imortal",
-  "Radiante"
-];
 
 let hero = [
   ["William Wallace", 1300], //bronze
@@ -25,6 +15,19 @@ let hero = [
   ["Chuck Norris", 9500]//Imortal
 ];
 
+//Define Constant level
+const level = [
+  "Ferro",
+  "Bronze",
+  "Prata",
+  "Ouro",
+  "Platina",
+  "Ascendente",
+  "Imortal",
+  "Radiante"
+];
+
+//Read the array hero and assined values for variables heroName and xp based in hero name
 for (let i = 0; i < hero.length; i++) {
   switch (hero[i][0]) {
     case "William Wallace":
@@ -65,6 +68,7 @@ for (let i = 0; i < hero.length; i++) {
       break;
   }
 
+  //Verify name of hero level based on XP points
   if (xp <= 1000) {
     heroLevel = level[0];
   } else if (xp > 1000 && xp <= 2000) {
@@ -82,5 +86,6 @@ for (let i = 0; i < hero.length; i++) {
   } else if (xp > 10000) {
     heroLevel = level[7];
   }
+  // Print result on console
   console.log("O Herói de nome " + heroName + " está no nível de " + heroLevel + ".");
 }
