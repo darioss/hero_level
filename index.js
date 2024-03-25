@@ -87,5 +87,5 @@ for (let i = 0; i < hero.length; i++) {
     heroLevel = level[7];
   }
   // Print result on console
-  console.log("O Herói de nome " + heroName + " está no nível de " + heroLevel + ".");
+  console.log(`O Herói de nome ${heroName} está no nível de ${heroLevel}.`);
 }
