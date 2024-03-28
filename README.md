@@ -26,3 +26,9 @@ Se XP for maior ou igual a 10.001 = Radiante
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+## 🛠 Skills
+<div>
+  <img aliagn="center" alt="js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img aliagn="center" alt="css3" src="https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown">
+</div>
